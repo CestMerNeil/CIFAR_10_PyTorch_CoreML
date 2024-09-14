@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Navigate to Xcode Project directory
-        run: cd CIFAR_10_Pytorch_CoreML
+        run: cd CIFAR10MPS_Swift
 
       - name: Set Default Scheme
         run: |
